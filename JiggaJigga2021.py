@@ -22,12 +22,6 @@ import random
 
 # Import your AI here
 from SampleAIs2021 import *
-from botvu import *
-from Daniel_LaRusso import *
-from main import *
-from PeterV_RegularAIs import *
-from Carl_AI_ import *
-from Parley_Aiden import *
 
 BLACK = (0, 0, 0)
 LIGHTGRAY = (200, 200, 200)
@@ -48,15 +42,7 @@ name_to_function = {#None: null,
                     'MultipleOfThreeMarie': MultipleOfThreeMarie,
                     'OneEightNate': OneEightNate,
                     'EdgyEddy': EdgyEddy,
-                    'botvu 1': bevu,
-                    'botvu 2': grevu,
-                    'Daniel LaRusso': Daniel_LaRusso,
-                    'AlexAi 1': AI1,
-                    'AlexAi 2': AI2,
-                    'AlexAi 3': AI3,
-                    'WebOfGreed': WebOfGreed,
-                    'OptimalOwen': OptimalOwen,
-                    'BogusBot': BogusBot}
+                    }
 
 names = [None]*30
 
@@ -127,7 +113,7 @@ colors = {0: (13, 249, 253),
           10: (60, 150, 30),
           11: (239, 217, 183),
           12: (180, 136, 102),
-          13: (r, g, b),
+          13: (100, 100, 100),
           #13: (20, 30, 50),
           14: (140, 255, 200),
           15: GRAY,
@@ -525,4 +511,3 @@ while not closed:
     clock.tick(100)
 
 pygame.quit()
-
